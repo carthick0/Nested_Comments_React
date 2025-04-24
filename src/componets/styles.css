@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.add-comment {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+  align-items: flex-start;
+}
+
+.comment-button {
+  padding: 10px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.comment {
+  background-color: #e6f1ff;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  text-align: left; /* ✅ Ensures content is left-aligned */
+}
+
+.comment-content {
+  font-weight: 500;
+  margin-bottom: 8px;
+  text-align: left; /* ✅ Left align the comment content */
+}
+
+.comment-info {
+  font-size: 13px;
+  color: #555;
+  margin: 2px 0;
+  text-align: left; /* ✅ Left align the info (votes & timestamp) */
+}
+
+.comment-action {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.comment-action button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.comment-replies {
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+textarea.comment-textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

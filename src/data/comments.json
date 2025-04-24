@@ -1,0 +1,85 @@
+[
+  {
+    "id": 1,
+    "content": "This article is very insightful!",
+    "vote": 23,
+    "timestamp": "2025-04-24T09:15:00Z",
+    "replies": [
+      {
+        "id": 2,
+        "content": "Agreed! I particularly liked the part about user behavior.",
+        "vote": 10,
+        "timestamp": "2025-04-24T09:45:00Z",
+        "replies": [
+          {
+            "id": 3,
+            "content": "Same here. It was very well explained.",
+            "vote": 4,
+            "timestamp": "2025-04-24T10:00:00Z",
+            "replies": []
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "content": "I think they missed out on discussing edge cases.",
+        "vote": 3,
+        "timestamp": "2025-04-24T10:10:00Z",
+        "replies": []
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "content": "Can someone explain the part about recursive algorithms?",
+    "vote": 12,
+    "timestamp": "2025-04-24T11:20:00Z",
+    "replies": [
+      {
+        "id": 6,
+        "content": "Sure! It’s when a function calls itself to solve smaller instances of a problem.",
+        "vote": 8,
+        "timestamp": "2025-04-24T11:30:00Z",
+        "replies": [
+          {
+            "id": 7,
+            "content": "Also remember to define a base case or it’ll go into infinite recursion!",
+            "vote": 6,
+            "timestamp": "2025-04-24T11:35:00Z",
+            "replies": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "content": "Not sure I agree with the conclusion.",
+    "vote": -1,
+    "timestamp": "2025-04-24T12:00:00Z",
+    "replies": [
+      {
+        "id": 9,
+        "content": "Why not? I thought it was backed with good evidence.",
+        "vote": 5,
+        "timestamp": "2025-04-24T12:10:00Z",
+        "replies": [
+          {
+            "id": 10,
+            "content": "It lacked data from the last 2 years. Things have changed since then.",
+            "vote": 3,
+            "timestamp": "2025-04-24T12:20:00Z",
+            "replies": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "content": "This helped me prepare for my interview!",
+    "vote": 19,
+    "timestamp": "2025-04-24T13:00:00Z",
+    "replies": []
+  }
+]
